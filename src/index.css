@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Scan @videojs/react Tailwind skin classes in node_modules */
+@source "../node_modules/@videojs/react/dist";
+
+/* Video.js v8 base styles */
+@import "video.js/dist/video-js.css";
+

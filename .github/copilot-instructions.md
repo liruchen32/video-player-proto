@@ -1,0 +1,7 @@
+- This is a React + TypeScript + Vite project for a video player prototype.
+- Uses Tailwind CSS v4 for styling (via @tailwindcss/vite plugin).
+- Two player modes: Cloudflare Stream embed (@cloudflare/stream-react) and Video.js (HLS).
+- Video player components are in src/components/.
+- Replace demo video IDs in src/App.tsx with real Cloudflare Stream video IDs.
+- Run `npm run dev` to start the dev server, `npm run build` to build for production.
+- videojs/react doc is here: [videojs.org/docs/framework/react/llms.txt](https://videojs.org/docs/framework/react/llms.txt)
