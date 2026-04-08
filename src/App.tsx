@@ -10,7 +10,7 @@ import type Player from "video.js/dist/types/player";
 const VIDEO_ID = "cb89cf7ae6c71adc9555fc57a78c60e3";
 const VIDEO_TITLE = "大罷免測試影片";
 const VIDEO_DESC = "測試一下，拿來測試，測試播放影片啦";
-const CHAPTERS_URL = "/chapters.vtt";
+const CHAPTERS_URL = `${import.meta.env.BASE_URL}chapters.vtt`;
 
 type PlayerMode = "videojs" | "stream" | "vjsreact";
 
